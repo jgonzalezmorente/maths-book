@@ -1,0 +1,98 @@
+\chapter{Álgebra Matricial}
+
+\section{Definiciones básicas}
+
+Un conjunto de $n$ números reales $\x$ puede representarse como un punto en el espacio de $n$ dimensiones $\RR^n$. Definiremos el vector $\x$ como el segmento orientado que une el origen de coordenadas con el punto $\x$. La orientación es importante, porque no es lo mismo el vector $\x$ que el $-\x$. Con esta correspondencia, a cada punto del espacio en $\RR^n$ le asociamos un vector. En adelante, representaremos un vector mediante $\x$, para diferenciarlo del escalar $x$, y llamaremos $\RR^n$ al espacio de todos los vectores de $n$ coordenadas o componentes. En particular, un conjunto de números con todos los valores iguales se representará por un vector \textbf{constante}, que es aquél con todas sus coordenadas iguales. Un vector constante es de la forma $c\1$, donde $c$ es cualquier constante y $\1$ es el vector con todas sus coordenadas iguales a la unidad.
+
+En Estadística podemos asociar a los valores de una variable en $n$ elementos un vector en $\RR^n$, cuyo componente $i$-ésimo es el valor de la variable en el elemento $i$. Por ejemplo, si medimos las edades de tres personas en una clase y obtenemos los valores 20, 19 y 21 años, esta muestra se representa por el vector tridimensional
+$$\x=\begin{pmatrix}
+    20 \\
+    19 \\
+    21
+\end{pmatrix}$$
+
+La \textbf{suma} (o \textbf{diferencia}) de dos vectores $\x$ e $\y$, ambos en $\RR^n$, se define como un nuevo vector con componentes iguales a la suma (diferencia) de los componentes de los sumandos:
+$$\x + \y=\begin{pmatrix}
+    x_1 \\
+    \vdots \\
+    x_n
+\end{pmatrix}+
+\begin{pmatrix}
+    y_1 \\
+    \vdots \\
+    y_n
+\end{pmatrix} =
+\begin{pmatrix}
+    x_1 + y_1 \\
+    \vdots \\
+    x_n + y_n
+\end{pmatrix}$$
+
+Es inmediato comprobar que la suma de vectores es asociativa, $\x+(\y+\z)=(\x+\y)+\z$ y conmutativa, $\x+\y=\y+\x$.
+
+La suma de dos vectores corresponde a la idea intuitva de trasladar un vector al extremo del otro y construir la línea que va desde el origen del primero al extremo del segundo. La operación suma (resta) de dos vectores da lugar a otro vector y estadísticamente corresponde a generar una nueva variable como suma (resta) de otras dos anteriores. Por ejemplo, si $\x$ representa el número de trabajadores varones en un conjunto de empresas e $\y$ el número de trabajadoras, la variable $\x+\y$ representa el número total de trabajadores y la variable $\x-\y$ la diferencia entre hombres y mujeres de cada empresa.
+
+\textbf{El producto de una constante por un vector}, es un nuevo vector con componentes los del vector inicial multiplicados por la constante.
+$$\z=k\x=\begin{pmatrix}
+    kx_1 \\
+    \vdots \\
+    kx_n
+\end{pmatrix}$$
+
+Multiplicar por una constante equivale a un cambio en las unidades de medición. Por ejemplo, si en lugar de medir el número de trabajadores en unidades (variable $\x$) lo hacemos en centenas (variable $\z$), entonces la variable $\z$ es igual a $\x/100$.
+
+Llamaremos \textbf{vector transpuesto} $\x'$, de otro $\x$, a un vector con las mismas componentes, pero escritas ahora en fila:
+$$\x'=\left(x_1,\dots,x_n\right)$$
+
+Al transponer un vector columna se obtiene un vector fila. Generalmente los vectores fila se utilizan para describir los valores de $p$ variables distintas en un mismo elemento de una población.
+
+El \textbf{producto escalar o interno} de dos vectores $\x$, $\y$, ambos en $\RR^n$, que escribiremos $\x'\y$ o $\y'\x$, es el escalar obtenido al sumar los productos de sus componentes.
+$$\x'\y=\y'\x=\sum_{i=1}^nx_iy_i$$
+
+Se llamará \textbf{norma (cuadrática)} o longitud de un vector $\x$, a la raíz cuadrada positiva del producto escalar $\x'\x$. Se escribe $\norm{\x}$:
+$$\norm{x}=\sqrt{\x'\x}=\sqrt{x_1^2+\cdots+x_n^2}$$
+
+La norma es la longitud del segmento que une el origen con el punto $\x$.
+
+El producto escalar puede calcularse también como el producto de las normas de los vectores por el coseno del ángulo que forman. Para ilustrar este concepto consideremos los vectores
+$$\x=\begin{pmatrix}
+    a \\
+    0
+\end{pmatrix}, \quad \y=\begin{pmatrix}
+    a \\
+    c
+\end{pmatrix}$$
+Observemos que el producto escalar es $\x'\y=a^2$ y que este mismo resultado se obtiene multiplicando la norma de ambos vectores, $\norm{\x}=a$, $\norm{\y}=\sqrt{a^2+c^2}$ por el coseno del ángulo $\theta$ que forman, dado por $\cos\theta=a/\sqrt{a^2+c^2}$. Observemos que el producto escalar puede también expresarse como el producto de la norma de un vector por la proyección del otro sobre él. Si uno de los vectores tiene norma uno, el producto escalar es directamente la proyección del otro vector sobre él.
+
+Se demuestra en general que:
+$$\abs{\x'\y}\leq\norm{\x}\norm{\y}$$
+que se conoce como la \textbf{desigualdad de Cauchy-Schwarz}. Esta desigualdad permite definir el \textbf{ángulo} entre dos vecotres $\x$ e $\y$ de $\RR^n$ (no nulos) por la relación:
+$$\cos\theta=\frac{\x'\y}{\norm{\x}\norm{\y}}$$
+
+Si dos variables tienen media cero, el coseno del ángulo que forman es su \textbf{coeficiente de correlación}.
+
+Dos vectores son \textbf{ortogonales}, o perpendiculares, si y sólo si, su producto escalar es cero. Por la definición de ángulo
+$$\x'\y=\norm{\x}\norm{\y}\cos\theta$$
+siendo $\theta$ el ángulo que forman los vectores. Si $\theta=90^\circ$ el coseno es cero y también lo será su producto escalar.
+
+El producto escalar tiene una clara interpretación estadística. Para describir una variable tomamos su media. Para describir un vector podemos tomar su proyección sobre el vector constante. El vector constante de norma unidad en dimensión $n$ es $\frac{1}{\sqrt{n}}\1$, y la proyección de $\x$ sobre este vector es $\frac{1}{\sqrt{n}}\1'\x=\sum x_i/\sqrt{n}=\bar{x}\sqrt{n}$. El vector constante resultante de esta proyección es
+$$\bar{x}\sqrt{n}\left(\frac{1}{\sqrt{n}}\right)\1=\bar{x}\1$$
+Por tanto, la media es el escalar que define el vector obtenido al proyectar el vector de datos sobre la dirección constante. También puede interpretarse como la norma estandarizada del vector obtenido al proyectar los datos en la dirección del vector constante, donde para estandarizar la norma de un vector dividiremos siempre por $\sqrt{n}$, siendo $n$ la dimensión del espacio.
+
+La variabilidad de los datos se mide por la \textbf{desviación típica}, que es la distancia estandarizada entre el vector de datos y el vector constante. La proyección del vector de datos sobre la dirección del vector constante produce el vector $\bar{x}\1$, y la norma del vector diferencia, $\x-\bar{x}\1$, mide la distancia entre el vector de datos y el vector constante. La norma estandarizada, dividiendo por la raíz de la dimensión del espacio es:
+$$\frac{1}{\sqrt{n}}\norm{x-\bar{x}\1}=\sqrt{\frac{\sum_{i=1}^n(x_i-\bar{x})^2}{n}}=\sigma_\x$$
+
+La medida de dependencia lineal entre dos variables, $\x$, $\y$ es la \textbf{covarianza}. La covarianza es el producto escalar promedio de los dos vectores medidos en desviaciones a la media, o tomando sus diferencias respecto a la proyección sobre el vector constante. Si promediamos el producto escalar de estos vectores
+$$\frac{1}{n}(\x-\bar{x}\1)'(\y-\bar{y})=\frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{n}=\Cov(\x,\y)$$
+se obtiene la covarianza. Para variables con media cero, el producto escalar de los dos vectores, dividido por $n$, es directamente la covarianza.
+
+Para variables estandarizadas (de media cero y desviación típica uno) la covarianza es el \textbf{coeficiente de correlación}:
+$$\rho=\frac{\Cov(\x,\y)}{\sigma_\x\sigma_\y}=\Cov(\x,\y)$$
+
+Para vectores media cero, el coeficiente de correlación es el coseno del ángulo entre los vectores que las representan:
+$$\rho=\frac{\Cov(\x,\y)}{\sigma_\x\sigma_y}=\frac{\dfrac{\x'\y}{n}}{\dfrac{\norm{x}}{\sqrt{n}}\dfrac{\norm{y}}{\sqrt{n}}}=\frac{\x'\y}{\norm{x}\norm{y}}=\cos\theta$$
+que es la interpretación geométrica del coeficiente de correlación. La implicación estadística de la ortogonalidad es la incorrelación. Si dos variables tienen media cero y son ortogonales, es decir, los vectores que las caracterizan forman un ángulo de 90 grados, $\rho =0$, las variables están incorreladas.
+
+
+
+

@@ -1,0 +1,28 @@
+\chapter{Transformaciones lineales y matrices}
+
+% \section{Transformaciones lineales}
+% \section{Núcleo y recorrido}
+% \section{Dimensión del núcleo y rango de la transformación}
+% \section{Ejercicios}
+% \section{Operaciones algebraicas con transformaciones lineales}
+% \section{Inversas}
+% \section{Transformaciones lineales uno a uno}
+% \section{Ejercicios}
+% \section{Transformaciones lineales con valores asignados}
+\section{Representación matricial de las transformaciones lineales}
+
+Ya que es posible obtener distintas representaciones matriciales de una transformación lineal dada mediante la elección de bases distintas, parece natural intentar elegir bases de modo que la matriz resultante tenga una forma lo más sencilla posible. El teorema que sigue prueba que podemos hacer todos los elementos $0$ excepto los de la diagonal que va desde el vértice superior izquierdo al inferior derecho. A lo largo de esa diagonal habrá una hilera de unos seguidos de ceros, siendo el número de unos igual al rango de la transformación. Una matriz $(t_{ik})$ con todos los elementos $t_{ik}=0$ cuando $i\neq k$ se llama \textbf{matriz diagonal}.
+
+\begin{theorem}
+    Sean $V$ y $W$ espacios lineales de dimensión finita, con $\dim V=n$ y $\dim W=m$. Supongamos que $T\in\mathcal{L}(V,W)$ y que $r=\dim T(V)$ representa el rango de $T$. Existen entonces una base $(e_1,\dots,e_n)$ para $V$ y otra $(w_1,\dots,w_m)$ para $W$ tales que
+    \begin{equation}
+        T(e_i)=w_i\quad\text{para } i=1,2,\dots,r
+    \end{equation}
+    y
+    \begin{equation}
+        T(e_i)=0\quad\text{para } i=r+1,\dots,n
+    \end{equation}
+    Por consiguiente, la matriz $(t_{ik})$ de $T$ relativa a esas bases tiene todos los elementos cero excepto los $r$ elementos de la diagonal que valen
+    $$t_{11}=t_{22}=\dots=t_{rr}=1$$
+
+\end{theorem}

@@ -1,0 +1,109 @@
+\documentclass[a4paper,12pt,oneside]{book} % Define el tipo de documento como libro, en papel A4, con tamaño de fuente 12pt y diseño a una sola cara.
+
+% Configuración de codificación y fuentes
+\usepackage[utf8]{inputenc}      % Permite usar caracteres UTF-8 en el archivo fuente.
+\usepackage[T1]{fontenc}         % Usa codificación de fuente T1 para caracteres extendidos.
+\usepackage{lmodern}             % Fuente moderna de LaTeX que mejora la visualización en PDF.
+\usepackage[spanish]{babel}      % Configuración para español (división silábica y traducción de elementos como "Capítulo").
+
+% Paquetes matemáticos
+\usepackage{amsmath, amsthm, amssymb, amsfonts, calrsfs} % Paquetes para símbolos matemáticos, teoremas, y fuentes adicionales.
+
+% Configuración de márgenes
+\usepackage[a4paper, margin=2.5cm]{geometry} % Define los márgenes del documento (2.5 cm en este caso).
+
+% Encabezados y pies de página
+\usepackage{fancyhdr}            % Permite personalizar encabezados y pies de página.
+
+% Enlaces y referencias
+\usepackage[hidelinks]{hyperref} % Habilita enlaces en el PDF ocultando los colores.
+
+% Configuración de espaciado
+\usepackage{setspace}            % Permite ajustar el espaciado entre líneas.
+\onehalfspacing                  % Establece espaciado de 1.5 líneas en todo el documento.
+
+% Configuración de encabezados
+\setlength{\headheight}{15.5pt}  % Ajusta la altura del encabezado para evitar advertencias.
+\pagestyle{fancy}                % Activa el estilo de página personalizado con "fancyhdr".
+\fancyhead{}                     % Limpia los encabezados predeterminados.
+\fancyhead[C]{\leftmark}         % Muestra el nombre del capítulo centrado en el encabezado.
+\fancyfoot{}                     % Limpia los pies de página predeterminados.
+\fancyfoot[C]{\thepage}          % Muestra el número de página centrado en el pie de página.
+
+% Definición de entornos para teoremas y otros conceptos matemáticos
+\newtheorem{theorem}{Teorema}[chapter]     % Define el entorno "Teorema", numerado por capítulo.
+\newtheorem{prop}{Proposición}[chapter]    % Define "Proposición", numerado por capítulo.
+\newtheorem{lem}{Lema}[chapter]            % Define "Lema", numerado por capítulo.
+\newtheorem{cor}{Corolario}[chapter]       % Define "Corolario", numerado por capítulo.
+\theoremstyle{definition}                  % Cambia el estilo para definiciones y ejemplos.
+\newtheorem{df}{Definición}[chapter]       % Define "Definición", numerado por capítulo.
+\newtheorem{example}{Ejemplo}[chapter]     % Define "Ejemplo", numerado por capítulo.
+\newtheorem{obs}{Observación}[chapter]     % Define "Observación", numerado por capítulo.
+
+% Comandos para personalizar notación matemática
+\renewcommand*{\deg}{\normalfont\text{gr}\hspace*{1mm}}     % Redefine el símbolo de grados como "gr".
+\renewcommand{\vec}[1]{\mathbf{#1}}                         % Define vectores como negritas.
+\newcommand{\cl}[1]{\overline{#1}}                          % Define la clausura.
+\newcommand{\conj}[1]{\overline{#1}}                        % Define conjugación.
+\newcommand{\fr}[1]{\partial{#1}}                           % Define frontera.
+\newcommand{\ip}[2]{\left\langle #1,#2\right\rangle}        % Define producto interno.
+\newcommand{\norm}[1]{\left\| #1\right\|}                   % Define norma.
+\newcommand{\ec}[1]{\left[#1\right]}                        % Define corchetes.
+\newcommand{\set}[1]{\left\lbrace#1\right\rbrace}           % Define conjuntos.
+\newcommand{\suc}[1]{\left\lbrace#1\right\rbrace}           % Define sucesiones.
+\newcommand{\abs}[1]{\left| #1\right|}                      % Define valor absoluto.
+\newcommand{\ent}[1]{\left\lfloor #1\right\rfloor}          % Define parte entera.
+\newcommand{\eps}{\varepsilon}                              % Redefine epsilon.
+\renewcommand{\Im}{\operatorname{Im}}                       % Redefinición del operador "Parte imaginaria"
+\renewcommand{\Re}{\operatorname{Re}}                       % Redefinición del operador "Parte real"
+\DeclareMathOperator{\Log}{Log}                             % Operador "Logaritmo"
+\DeclareMathOperator{\inter}{int}                           % Operador "Interior"
+\DeclareMathOperator{\mcm}{mcm}                             % Operador "mínimo común múltiplo"
+\DeclareMathOperator{\mcd}{mcd}                             % Operador "máximo común divisor"
+\DeclareMathOperator{\Cov}{Cov}                             % Operador matemático "Covarianza"
+
+% Notación para conjuntos numéricos
+\def\NN{\mathbb{N}} % Números naturales
+\def\ZZ{\mathbb{Z}} % Números enteros
+\def\QQ{\mathbb{Q}} % Números racionales
+\def\RR{\mathbb{R}} % Números reales
+\def\CC{\mathbb{C}} % Números complejos
+
+% Notación para vectores
+\def\0{\vec{0}}
+\def\1{\vec{1}}
+\def\a{\vec{a}}
+\def\b{\vec{b}}
+\def\u{\vec{u}}
+\def\p{\vec{p}}
+\def\t{\vec{t}}
+\def\x{\vec{x}}
+\def\y{\vec{y}}
+\def\z{\vec{z}}
+\def\f{\vec{f}}
+\def\g{\vec{g}}
+
+% Documento principal
+\begin{document}
+
+% Portada
+\title{\bf MATEMÁTICAS}                     % Título del libro
+\author{}                                   % Autor del libro
+\maketitle                                  % Genera la portada
+
+% Índice
+\immediate\tableofcontents                   % Genera el índice inmediatamente.
+
+% Incluir partes del libro
+\nocite{*}                                   % Incluye todas las referencias en la bibliografía, aunque no estén citadas.
+
+\include{parts/vector_calculus/part}
+\include{parts/multivar_data_analysis/part}
+
+% Bibliografía
+\bibliographystyle{apalike}                  % Usa el estilo APA para la bibliografía.
+\phantomsection                              % Fija el punto de anclaje para el enlace desde el índice.
+\addcontentsline{toc}{chapter}{Bibliografía} % Añade la bibliografía al índice de contenidos.
+\bibliography{bib/references}                % Incluye la bibliografía del archivo references.bib.
+
+\end{document}
