@@ -1,0 +1,59 @@
+\chapter{Límites y continuidad}
+
+\section{Introducción}
+
+Supongamos al lector ya familiarizado con el concepto de límites tal como es introducido en el cálculo elemental donde es corriente presentar varios tipos de límites. Por ejemplo, el {\it límite de una sucesión} de números reales $\suc{x_n}$, que simbolizamos cuando escribimos
+$$\lim_{n\to\infty}x_n=A$$
+significa que para cada número $\eps>0$ existe un entero $N>0$ tal que
+$$\abs{x_n-A}<\eps\quad\text{siempre que }n\geq N$$
+Este límite pretende transmitir la idea intuitiva de que $x_n$ puede estar suficientemente próximo a $A$ en el supuesto de que $n$ sea suficientemente grande. También se da el {\it límite de una función}, indicado por medio de la notación
+$$\lim_{x\to p}f(x)=A$$
+que significa que para cada $\eps>0$ existe otro número $\delta>0$ tal que
+$$\abs{f(x)-A}<\eps \quad\text{siempre que }0<\abs{x-p}<\delta$$
+Esta definición expresa la idea de que $f(x)$ puede conseguirse tan próximo a $A$ como queramos, siempre que $x$ se tome lo suficientemente próximo a $p$, sin llegar a ser $p$.
+
+Las aplicaciones del cálculo a los problemas geométricos y físicos del espacio tridimensional y a las funciones de varias variables nos obligan a extender estos conceptos a $\RR^n$. Es tan necesario como fácil dar un paso más e introducir los límites en el marco más general de los espacios métricos. Esto simplifica la teoría puesto que elimina restricciones innecesarias y al mismo tiempo cubre casi todos los aspectos necesarios del análisis.
+
+Primeramente discutiremos los límites de las sucesiones de puntos de un espacio métrico y después discutiremos los límites de funciones y el concepto de continuidad.
+
+\section{Sucesiones convergentes en un espacio métrico}
+
+\begin{definition}
+    Una sucesión $\suc{x_n}$ de puntos de un espacio métrico $(S, d)$ es convergente si existe un punto $p$ de $S$ que satisfaga la siguiente propiedad:
+
+    Para todo $\eps>0$ existe un entero $N$ tal que
+    $$d(x_n,p)<\eps\quad\text{siempre que }n\geq N$$
+    Diremos también que $\suc{x_n}$ converge hacia $p$ y escribiremos $x_n\to p$ cuando $n\to\infty$, o simplemente $x_n\to p$. Si no existe un tal número $p$ de $S$, se dice que la sucesión $\suc{x_n}$ es divergente.
+\end{definition}
+
+La definición de convergencia implica que
+$$x_n\to p\quad\text{si, y sólo si, }d(x_n, p)\to 0$$
+La convergencia de la sucesión $\suc{d(x_n, p)}$ hacia $0$ se realiza en el espacio euclídeo $\RR$.
+
+\begin{example}
+    En el espacio euclídeo $\RR$, una sucesión $\suc{x_n}$ se llama {\it creciente} si $x_n\leq x_{n+1}$ para todo $n$. Si una sucesión creciente está acotada superiormente (esto es, si $x_n\leq M$ para un $M>0$ y para todo $n$), entonces $\suc{x_n}$ converge hacia el supremo de su recorrido, $\sup\set{x_1,x_2,\dots}$. Análogamente, $\suc{x_n}$ se llama {\it decreciente} si $x_{n+1}\leq x_n$ para todo $n$. Cada sucesión decreciente acotada inferiormente converge hacia el ínfimo de su recorrido. Por ejemplo, $\suc{1/n}$ converge a $0$.
+\end{example}
+
+\begin{example}
+    Si $\suc{a_n}$ y $\suc{b_n}$ son sucesiones reales que convergen hacia $0$, entonces $\suc{a_n+b_n}$ también converge hacia $0$. Si $0\leq c_n\leq a_n$ para todo $n$ y si $\suc{a_n}$ converge hacia $0$, entonces $\suc{c_n}$ también converge hacia $0$. Estas propiedades elementales de las sucesiones $\RR$ pueden ser útiles para simplificar algunas de las demostraciones concernientes a límites de un espacio métrico general.
+\end{example}
+
+\begin{example}
+    En el plano complejo $\CC$, sea
+    $$z_n=1+\frac{1}{n^2}+\left(2-\frac{1}{n}\right)i$$
+    Entonces $\suc{z_n}$ converge hacia $1+2i$ puesto que
+    $$d(z_n, 1+2i)^2=\abs{z_n - (1+2i)}^2=\abs{\frac{1}{n^2}-\frac{1}{n}i}^2=\frac{1}{n^4}+\frac{1}{n^2}\to 0\text{ cuando }n\to\infty$$
+    luego $d(z_n, 1+2i)\to 0$.
+\end{example}
+
+\begin{theorem}
+    Una sucesión $\suc{x_n}$ en un espacio métrico $(S,d)$ puede converger hace un punto de $S$, a lo sumo.
+\end{theorem}
+
+\begin{proof}
+    Supongamos que $x_n\to p$ y que $x_n\to q$. Probaremos que $p=q$. En virtud de la desigualdad triangular se tiene
+    $$0\leq d(p,q)\leq d(p,x_n)+d(x_n,q)$$
+    Como $d(p,x_n)\to 0$ y $d(x_n,q)\to 0$ se tiene que $d(p,q)=0$, luego $p=q$.
+\end{proof}
+
+Si una sucesión $\suc{x_n}$ converge, el único punto  hacia el que converge se llama {\it límite} de la sucesión y se designa por medio de $\lim x_n$ o por medio de $\lim_{n\to\infty}x_n$.

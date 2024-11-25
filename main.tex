@@ -31,14 +31,15 @@
 \fancyfoot[C]{\thepage}          % Muestra el número de página centrado en el pie de página.
 
 % Definición de entornos para teoremas y otros conceptos matemáticos
-\newtheorem{theorem}{Teorema}[chapter]     % Define el entorno "Teorema", numerado por capítulo.
-\newtheorem{prop}{Proposición}[chapter]    % Define "Proposición", numerado por capítulo.
-\newtheorem{lem}{Lema}[chapter]            % Define "Lema", numerado por capítulo.
-\newtheorem{cor}{Corolario}[chapter]       % Define "Corolario", numerado por capítulo.
-\theoremstyle{definition}                  % Cambia el estilo para definiciones y ejemplos.
-\newtheorem{df}{Definición}[chapter]       % Define "Definición", numerado por capítulo.
-\newtheorem{example}{Ejemplo}[chapter]     % Define "Ejemplo", numerado por capítulo.
-\newtheorem{obs}{Observación}[chapter]     % Define "Observación", numerado por capítulo.
+\newtheorem{theorem}{Teorema}[chapter]       % Define el entorno "Teorema", numerado por capítulo.
+\newtheorem{prop}{Proposición}[chapter]      % Define "Proposición", numerado por capítulo.
+\newtheorem{lem}{Lema}[chapter]              % Define "Lema", numerado por capítulo.
+\newtheorem{cor}{Corolario}[chapter]         % Define "Corolario", numerado por capítulo.
+\theoremstyle{definition}                    % Cambia el estilo para definiciones y ejemplos.
+\newtheorem{definition}{Definición}[chapter] % Define "Definición", numerado por capítulo.
+\newtheorem{note}{Nota}[chapter]             % Define "Definición", numerado por capítulo.
+\newtheorem{example}{Ejemplo}[chapter]       % Define "Ejemplo", numerado por capítulo.
+\newtheorem{obs}{Observación}[chapter]       % Define "Observación", numerado por capítulo.
 
 % Comandos para personalizar notación matemática
 \renewcommand*{\deg}{\normalfont\text{gr}\hspace*{1mm}}     % Redefine el símbolo de grados como "gr".
@@ -97,6 +98,7 @@
 % Incluir partes del libro
 \nocite{*}                                   % Incluye todas las referencias en la bibliografía, aunque no estén citadas.
 
+\include{parts/analysis/part}
 \include{parts/vector_calculus/part}
 \include{parts/multivar_data_analysis/part}
 
