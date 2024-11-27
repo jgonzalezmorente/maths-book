@@ -127,6 +127,9 @@ INPUT parts/analysis/part.aux
 INPUT ./parts/vector_calculus/part.aux
 INPUT ./parts/vector_calculus/part.aux
 INPUT parts/vector_calculus/part.aux
+INPUT ./parts/prob_stat/part.aux
+INPUT ./parts/prob_stat/part.aux
+INPUT parts/prob_stat/part.aux
 INPUT ./parts/multivar_data_analysis/part.aux
 INPUT ./parts/multivar_data_analysis/part.aux
 INPUT parts/multivar_data_analysis/part.aux
@@ -239,6 +242,15 @@ INPUT ./parts/vector_calculus/ch_linear_trans_matrix.tex
 INPUT parts/vector_calculus/ch_linear_trans_matrix.tex
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
+INPUT ./parts/prob_stat/part.tex
+INPUT ./parts/prob_stat/part.tex
+OUTPUT parts/prob_stat/part.aux
+INPUT ./parts/prob_stat/part.tex
+INPUT ./parts/prob_stat/part.tex
+INPUT parts/prob_stat/part.tex
+INPUT ./parts/prob_stat/ch_probability.tex
+INPUT ./parts/prob_stat/ch_probability.tex
+INPUT parts/prob_stat/ch_probability.tex
 INPUT ./parts/multivar_data_analysis/part.tex
 INPUT ./parts/multivar_data_analysis/part.tex
 OUTPUT parts/multivar_data_analysis/part.aux
@@ -263,6 +275,9 @@ INPUT parts/analysis/part.aux
 INPUT ./parts/vector_calculus/part.aux
 INPUT ./parts/vector_calculus/part.aux
 INPUT parts/vector_calculus/part.aux
+INPUT ./parts/prob_stat/part.aux
+INPUT ./parts/prob_stat/part.aux
+INPUT parts/prob_stat/part.aux
 INPUT ./parts/multivar_data_analysis/part.aux
 INPUT ./parts/multivar_data_analysis/part.aux
 INPUT parts/multivar_data_analysis/part.aux

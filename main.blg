@@ -3,12 +3,13 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: parts/analysis/part.aux
 A level-1 auxiliary file: parts/vector_calculus/part.aux
+A level-1 auxiliary file: parts/prob_stat/part.aux
 A level-1 auxiliary file: parts/multivar_data_analysis/part.aux
 The style file: apalike.bst
 Database file #1: bib/references.bib
 You've used 2 entries,
             1935 wiz_defined-function locations,
-            486 strings with 3995 characters,
+            487 strings with 4019 characters,
 and the built_in function-call counts, 567 in all, are:
 = -- 50
 > -- 14

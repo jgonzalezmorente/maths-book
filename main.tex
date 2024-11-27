@@ -22,6 +22,9 @@
 \usepackage{setspace}            % Permite ajustar el espaciado entre líneas.
 \onehalfspacing                  % Establece espaciado de 1.5 líneas en todo el documento.
 
+% Creación de gráficos vectoriales
+%\usepackage{tikz}
+
 % Configuración de encabezados
 \setlength{\headheight}{15.5pt}  % Ajusta la altura del encabezado para evitar advertencias.
 \pagestyle{fancy}                % Activa el estilo de página personalizado con "fancyhdr".
@@ -42,26 +45,26 @@
 \newtheorem{obs}{Observación}[chapter]       % Define "Observación", numerado por capítulo.
 
 % Comandos para personalizar notación matemática
-\renewcommand*{\deg}{\normalfont\text{gr}\hspace*{1mm}}     % Redefine el símbolo de grados como "gr".
-\renewcommand{\vec}[1]{\mathbf{#1}}                         % Define vectores como negritas.
-\newcommand{\cl}[1]{\overline{#1}}                          % Define la clausura.
-\newcommand{\conj}[1]{\overline{#1}}                        % Define conjugación.
-\newcommand{\fr}[1]{\partial{#1}}                           % Define frontera.
-\newcommand{\ip}[2]{\left\langle #1,#2\right\rangle}        % Define producto interno.
-\newcommand{\norm}[1]{\left\| #1\right\|}                   % Define norma.
-\newcommand{\ec}[1]{\left[#1\right]}                        % Define corchetes.
-\newcommand{\set}[1]{\left\lbrace#1\right\rbrace}           % Define conjuntos.
-\newcommand{\suc}[1]{\left\lbrace#1\right\rbrace}           % Define sucesiones.
-\newcommand{\abs}[1]{\left| #1\right|}                      % Define valor absoluto.
-\newcommand{\ent}[1]{\left\lfloor #1\right\rfloor}          % Define parte entera.
-\newcommand{\eps}{\varepsilon}                              % Redefine epsilon.
-\renewcommand{\Im}{\operatorname{Im}}                       % Redefinición del operador "Parte imaginaria"
-\renewcommand{\Re}{\operatorname{Re}}                       % Redefinición del operador "Parte real"
-\DeclareMathOperator{\Log}{Log}                             % Operador "Logaritmo"
-\DeclareMathOperator{\inter}{int}                           % Operador "Interior"
-\DeclareMathOperator{\mcm}{mcm}                             % Operador "mínimo común múltiplo"
-\DeclareMathOperator{\mcd}{mcd}                             % Operador "máximo común divisor"
-\DeclareMathOperator{\Cov}{Cov}                             % Operador matemático "Covarianza"
+\renewcommand*{\deg}{\normalfont\text{gr}\hspace*{1mm}} % Redefine el símbolo de grados como "gr".
+\renewcommand{\vec}[1]{\mathbf{#1}}                     % Define vectores como negritas.
+\newcommand{\cl}[1]{\overline{#1}}                      % Define la clausura.
+\newcommand{\conj}[1]{\overline{#1}}                    % Define conjugación.
+\newcommand{\fr}[1]{\partial{#1}}                       % Define frontera.
+\newcommand{\ip}[2]{\left\langle #1,#2\right\rangle}    % Define producto interno.
+\newcommand{\norm}[1]{\left\| #1\right\|}               % Define norma.
+\newcommand{\ec}[1]{\left[#1\right]}                    % Define corchetes.
+\newcommand{\set}[1]{\left\lbrace#1\right\rbrace}       % Define conjuntos.
+\newcommand{\suc}[1]{\left\lbrace#1\right\rbrace}       % Define sucesiones.
+\newcommand{\abs}[1]{\left| #1\right|}                  % Define valor absoluto.
+\newcommand{\ent}[1]{\left\lfloor #1\right\rfloor}      % Define parte entera.
+\newcommand{\eps}{\varepsilon}                          % Redefine epsilon.
+\renewcommand{\Im}{\operatorname{Im}}                   % Redefinición del operador "Parte imaginaria"
+\renewcommand{\Re}{\operatorname{Re}}                   % Redefinición del operador "Parte real"
+\DeclareMathOperator{\Log}{Log}                         % Operador "Logaritmo"
+\DeclareMathOperator{\inter}{int}                       % Operador "Interior"
+\DeclareMathOperator{\mcm}{mcm}                         % Operador "mínimo común múltiplo"
+\DeclareMathOperator{\mcd}{mcd}                         % Operador "máximo común divisor"
+\DeclareMathOperator{\Cov}{Cov}                         % Operador matemático "Covarianza"
 
 % Notación para conjuntos numéricos
 \def\NN{\mathbb{N}} % Números naturales
@@ -100,6 +103,7 @@
 
 \include{parts/analysis/part}
 \include{parts/vector_calculus/part}
+\include{parts/prob_stat/part}
 \include{parts/multivar_data_analysis/part}
 
 % Bibliografía

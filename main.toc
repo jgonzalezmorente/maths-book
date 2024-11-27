@@ -6,7 +6,10 @@
 \contentsline {part}{II\hspace {1em}Cálculo vectorial}{6}{part.2}%
 \contentsline {chapter}{\numberline {2}Transformaciones lineales y matrices}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Representación matricial de las transformaciones lineales}{7}{section.2.1}%
-\contentsline {part}{III\hspace {1em}Análisis de datos multivariantes}{8}{part.3}%
-\contentsline {chapter}{\numberline {3}Álgebra matricial}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Definiciones básicas}{9}{section.3.1}%
-\contentsline {chapter}{Bibliografía}{13}{section*.2}%
+\contentsline {part}{III\hspace {1em}Probabilidad y estadística}{8}{part.3}%
+\contentsline {chapter}{\numberline {3}Probabilidad}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Espacio muestral}{9}{section.3.1}%
+\contentsline {part}{IV\hspace {1em}Análisis de datos multivariantes}{11}{part.4}%
+\contentsline {chapter}{\numberline {4}Álgebra matricial}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Definiciones básicas}{12}{section.4.1}%
+\contentsline {chapter}{Bibliografía}{16}{section*.2}%

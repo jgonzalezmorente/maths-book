@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.23)  25 NOV 2024 20:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.23)  27 NOV 2024 08:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,7 +319,7 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 \c@note=\count306
 \c@example=\count307
 \c@obs=\count308
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 88.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 91.
  (/usr/local/texlive/2024basic/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/local/texlive/2024basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -329,29 +329,29 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- (./parts/analysis/part.aux) (./parts/vector_calculus/part.aux) (./parts/multivar_data_analysis/part.aux))
+ (./parts/analysis/part.aux) (./parts/vector_calculus/part.aux) (./parts/prob_stat/part.aux) (./parts/multivar_data_analysis/part.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -387,42 +387,42 @@ LaTeX Info: Redefining \% on input line 88.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 88.
+Package hyperref Info: Link coloring OFF on input line 91.
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 94.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 97.
  (/usr/local/texlive/2024basic/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 94.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 97.
  (/usr/local/texlive/2024basic/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 94.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 97.
  (/usr/local/texlive/2024basic/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 94.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 97.
  (/usr/local/texlive/2024basic/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 94.
+(Font)              <14.4> on input line 97.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 94.
+(Font)              <10> on input line 97.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 94.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
+(Font)              <7> on input line 97.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
  (/usr/local/texlive/2024basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
  (/usr/local/texlive/2024basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 94.
+LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 97.
  (/usr/local/texlive/2024basic/texmf-dist/tex/latex/calrsfs/OMSrsfs.fd)
 
 [1
@@ -447,7 +447,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101 \include{parts/analysis/part}
+l.104 \include{parts/analysis/part}
                                     [1
 
 ]
@@ -470,8 +470,8 @@ LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
 [4{/usr/local/texlive/2024basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]))
 
-LaTeX Info: Redefining \. on input line 101.
-LaTeX Info: Redefining \% on input line 101.
+LaTeX Info: Redefining \. on input line 104.
+LaTeX Info: Redefining \% on input line 104.
 [5]
 \openout2 = `parts/vector_calculus/part.aux'.
 
@@ -489,63 +489,83 @@ Cap\'{\i }tulo 2.
 [7
 
 ]
-\openout2 = `parts/multivar_data_analysis/part.aux'.
+\openout2 = `parts/prob_stat/part.aux'.
 
- (./parts/multivar_data_analysis/part.tex
+ (./parts/prob_stat/part.tex
 
 [8
 
 
 
 
-] (./parts/multivar_data_analysis/ch_matrix_algebra.tex
+] (./parts/prob_stat/ch_probability.tex
 Cap\'{\i }tulo 3.
 
 
 [9
 
+]))
+
+LaTeX Info: Redefining \. on input line 106.
+LaTeX Info: Redefining \% on input line 106.
+[10]
+\openout2 = `parts/multivar_data_analysis/part.aux'.
+
+ (./parts/multivar_data_analysis/part.tex
+
+[11
+
+
+
+
+] (./parts/multivar_data_analysis/ch_matrix_algebra.tex
+Cap\'{\i }tulo 4.
+
+
+[12
+
 ]
 
 LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
-[10]
+[13]
 
 LaTeX Info: Redefining \. on input line 83.
 LaTeX Info: Redefining \% on input line 83.
-[11]))
+[14]))
 
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
-[12] (./main.bbl)
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
+[15] (./main.bbl)
 
-[13
+[16
 
 
 
 ] (./main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- (./parts/analysis/part.aux) (./parts/vector_calculus/part.aux) (./parts/multivar_data_analysis/part.aux))
+ (./parts/analysis/part.aux) (./parts/vector_calculus/part.aux) (./parts/prob_stat/part.aux) (./parts/multivar_data_analysis/part.aux))
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EF62CE438DA1FE41EE1D3BB3D2EDC69C;2131.
+(rerunfilecheck)             Checksum: 7A03E4BEE289C72042455EC9EBEEEED2;2578.
  ) 
 Here is how much of TeX's memory you used:
- 11787 strings out of 474813
- 185004 string characters out of 5755170
- 589101 words of memory out of 5000000
- 34450 multiletter control sequences out of 15000+600000
+ 11828 strings out of 474813
+ 186176 string characters out of 5755170
+ 589549 words of memory out of 5000000
+ 34474 multiletter control sequences out of 15000+600000
  642067 words of font info for 93 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,12n,79p,1048b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1187b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (14 pages, 188733 bytes).
+Output written on main.pdf (17 pages, 194533 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 245 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
