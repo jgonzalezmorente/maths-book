@@ -1,50 +1,52 @@
 This is BibTeX, Version 0.99d (TeX Live 2024)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+A level-1 auxiliary file: parts/linear_algebra_geom/part.aux
 A level-1 auxiliary file: parts/analysis/part.aux
 A level-1 auxiliary file: parts/vector_calculus/part.aux
 A level-1 auxiliary file: parts/prob_stat/part.aux
 A level-1 auxiliary file: parts/multivar_data_analysis/part.aux
-The style file: apalike.bst
+A level-1 auxiliary file: parts/design_prob_models/part.aux
+The style file: plain.bst
 Database file #1: bib/references.bib
-You've used 2 entries,
-            1935 wiz_defined-function locations,
-            487 strings with 4019 characters,
-and the built_in function-call counts, 567 in all, are:
-= -- 50
-> -- 14
-< -- 2
-+ -- 4
-- -- 4
-* -- 34
-:= -- 109
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 10
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 28
-empty$ -- 47
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            521 strings with 4551 characters,
+and the built_in function-call counts, 665 in all, are:
+= -- 57
+> -- 21
+< -- 0
++ -- 9
+- -- 6
+* -- 26
+:= -- 123
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 36
+empty$ -- 67
 format.name$ -- 6
-if$ -- 109
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 13
+if$ -- 139
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 6
+newline$ -- 18
 num.names$ -- 6
-pop$ -- 16
+pop$ -- 24
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 9
 quote$ -- 0
-skip$ -- 21
+skip$ -- 18
 stack$ -- 0
-substring$ -- 24
-swap$ -- 2
+substring$ -- 15
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 6
 warning$ -- 0
-while$ -- 4
-width$ -- 0
-write$ -- 26
+while$ -- 6
+width$ -- 4
+write$ -- 32

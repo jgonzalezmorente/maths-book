@@ -1,15 +1,23 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {part}{I\hspace {1em}Análisis matemático}{2}{part.1}%
-\contentsline {chapter}{\numberline {1}Límites y continuidad}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introducción}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Sucesiones convergentes en un espacio métrico}{4}{section.1.2}%
-\contentsline {part}{II\hspace {1em}Cálculo vectorial}{6}{part.2}%
-\contentsline {chapter}{\numberline {2}Transformaciones lineales y matrices}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Representación matricial de las transformaciones lineales}{7}{section.2.1}%
-\contentsline {part}{III\hspace {1em}Probabilidad y estadística}{8}{part.3}%
-\contentsline {chapter}{\numberline {3}Probabilidad}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Espacio muestral}{9}{section.3.1}%
-\contentsline {part}{IV\hspace {1em}Análisis de datos multivariantes}{11}{part.4}%
-\contentsline {chapter}{\numberline {4}Álgebra matricial}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Definiciones básicas}{12}{section.4.1}%
-\contentsline {chapter}{Bibliografía}{16}{section*.2}%
+\contentsline {part}{I\hspace {1em}Álgebra lineal y geometría}{3}{part.1}%
+\contentsline {chapter}{\numberline {1}Grupos}{4}{chapter.1.1}%
+\contentsline {section}{\numberline {1.1}Definición y ejemplos}{4}{section.1.1.1}%
+\contentsline {part}{II\hspace {1em}Análisis matemático}{6}{part.2}%
+\contentsline {chapter}{\numberline {1}Límites y continuidad}{7}{chapter.2.1}%
+\contentsline {section}{\numberline {1.1}Introducción}{7}{section.2.1.1}%
+\contentsline {section}{\numberline {1.2}Sucesiones convergentes en un espacio métrico}{8}{section.2.1.2}%
+\contentsline {part}{III\hspace {1em}Cálculo vectorial}{10}{part.3}%
+\contentsline {chapter}{\numberline {1}Espacios lineales}{11}{chapter.3.1}%
+\contentsline {section}{\numberline {1.1}Introducción}{11}{section.3.1.1}%
+\contentsline {chapter}{\numberline {2}Transformaciones lineales y matrices}{12}{chapter.3.2}%
+\contentsline {section}{\numberline {2.1}Representación matricial de las transformaciones lineales}{12}{section.3.2.1}%
+\contentsline {part}{IV\hspace {1em}Probabilidad y estadística}{13}{part.4}%
+\contentsline {chapter}{\numberline {1}Probabilidad}{14}{chapter.4.1}%
+\contentsline {section}{\numberline {1.1}Espacio muestral}{14}{section.4.1.1}%
+\contentsline {part}{V\hspace {1em}Análisis de datos multivariantes}{16}{part.5}%
+\contentsline {chapter}{\numberline {1}Álgebra matricial}{17}{chapter.5.1}%
+\contentsline {section}{\numberline {1.1}Definiciones básicas}{17}{section.5.1.1}%
+\contentsline {part}{VI\hspace {1em}Diseño y análisis de modelos de probabilidad}{21}{part.6}%
+\contentsline {chapter}{\numberline {1}De la medida a la probabilidad}{22}{chapter.6.1}%
+\contentsline {section}{\numberline {1.1}Generación de estructuras}{22}{section.6.1.1}%
+\contentsline {chapter}{Bibliografía}{24}{section*.2}%

@@ -1,13 +1,18 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 
-\bibitem[Apostol, 1985]{Apostol1985Calculus}
-Apostol, T.~M. (1985).
+\bibitem{Apostol1985Calculus}
+Tom~M. Apostol.
 \newblock {\em Calculus. Volumen 2, segunda edición}.
-\newblock Editorial Reverté S.A.
+\newblock Editorial Reverté S.A., 1985.
 
-\bibitem[Peña, 2002]{Peña2002AnálisisDatos}
-Peña, D. (2002).
-\newblock {\em Análisis de Datos Multivariantes}.
-\newblock Editorial McGrawHill.
+\bibitem{Castellet1994AlgebraLineal}
+Manuel Castellet\normalfont{,}~Irene Llerena.
+\newblock {\em Álgebra lineal y geometría}.
+\newblock Editorial Reverté, 1994.
+
+\bibitem{Peña2002AnalisisDatos}
+Daniel Peña.
+\newblock {\em Análisis de datos multivariantes}.
+\newblock Editorial McGrawHill, 2002.
 
 \end{thebibliography}

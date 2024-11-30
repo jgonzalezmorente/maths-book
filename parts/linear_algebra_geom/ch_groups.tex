@@ -1,0 +1,36 @@
+\chapter{Grupos}
+
+\section{Definición y ejemplos}
+Un {\it grupo} es un conjunto $G$ junto con una operación $\cdot$ que cumple las propiedades:
+\begin{itemize}
+    \item[$\bullet$] Asociativa:
+        $$g\cdot(g'\cdot g'')=(g\cdot g')\cdot g''\quad \forall g, g', g'' \in G$$
+
+    \item[$\bullet$] Existe un elemento $e$, al que llamaremos {\it elemento neutro}, tal que:
+        $$g\cdot e = g = e\cdot g \quad \forall g\in G$$
+
+    \item[$\bullet$] Para cada $g\in G$ existe un elemento, al que denominaremos el {\it inverso} de $g$ y denotaremos por $g^{-1}$, tal que
+        $$g\cdot g^{-1}=e=g^{-1}\cdot g \quad \forall g\in G$$
+\end{itemize}
+
+Si se cumple también la propiedad conmutativa:
+$$g\cdot g' = g'\cdot g\quad\forall g,g'\in G$$
+diremos que el grupo es {\it conmutativo} o {\it abeliano}. En este caso, la operación se denota a menudo por $+$, el elemento neutro por $0$ (y se denomina {\it cero}) y el inverso por $-g$ (y se denomina el {\it opuesto} de $g$).
+
+Cuando indicamos la operación por $\cdot$ (notación multiplicativa), el elemento neutro se acostumbra a llamar {\it unidad} y a escribir $1$. Con esta notación multiplicativa, es costumbre suprimir el punto que indica la operación y escribir simplemente $gg'$ para indicar $g\cdot g'$.
+
+\begin{example}
+    Los números enteros $\ZZ$ con la suma forman un grupo conmutativo. Lo mismo vale para los racionales $\QQ$ y los reales $\RR$. Los números naturales $\NN=\set{1,2,\dots}$ no son un grupo con la suma.
+
+    Los números racionales no nulos, $\QQ-\set{0}$, con el producto forman un grupo conmutativo. Lo mismo vale para $\RR-\set{0}$. Ni $\ZZ-\set{0}$ ni $\NN$ son grupos con el producto.
+\end{example}
+
+\begin{example}
+    Los números complejos $\CC$ con la suma son un grupo conmutativo, $\CC - \set{0}$ con el producto es un grupo conmutativo. La circunferencia $S^1=\set{z\in\CC \ | \ \abs{z}=1}$ con el producto es un grupo conmutativo.
+\end{example}
+
+\begin{example}
+    Todos los ejemplos anteriores son grupos conmutativos. Los ejemplos más sencillos de grupos {\it no} conmutativos surgen en la geometría al estudiar determinados conjuntos de movimientos. Así, por ejemplo, el conjunto de movimientos del plano que dejan fijo un triángulo equilátero está formado por tres simetrías respecto a ejes que pasan por un vértice y el punto medio del lado opuesto, los giros de $120^\circ$ y $240^\circ$ alrededor del baricentro, y la identidad o giro de $0^\circ$. En estos ejemplos geométricos, la operación es la {\it composición}: la composición de los movimientos $g'$ y $g$ es el movimiento $g\circ g'$ que resulta de efectuar sucesivamente los movimientos $g'$ y $g$. (¡Atención al orden!) Esta operación no es conmutativa.
+
+    Esos grupos de movimientos aparecerán de manera natural al estudiar la geometría. A continuación, vamos a ocuparnos de otros grupos no conmutativos sencillos: los grupos de permutaciones.
+\end{example}

@@ -1,0 +1,34 @@
+\chapter{De la medida a la probabilidad}
+
+\section{Generación de estructuras}
+Como en la axiomática de la probabilidad el punto de partida para poder definir la función de probabilidad es considerar una clase de subconjuntos de $\Omega$ que posea una estructura flexible y operativa (será el álgebra o $\sigma$-álgebra, según las necesidades de descripción), es importante preguntarse si a partir de una clase arbitraria $\C$ de subconjuntos de $\Omega$ se puede engendrar (o generar) una clase con estructura determinada (la que se necesite) que contenga a la clase $\C$.
+
+Por otro lado como $\Parts(\Omega)$ es $\sigma$-álgebra, dada cualquier clase $\C$ de $\Omega$ siempre existirá alguna clase, con estructura dada, que la contiene. Una cuestión de interés en el desarrollo es la siguiente, entre todas las clases $\C_i$ ($i\in I)$ con estructura dada que contienen a $\C$ ($\C\subset\C_i$), ¿existe una $\C_m$ ($m\in I$) que sea la mínima en el sentido de estar contenida en cualquier otra con la misma estructura que contenga a $\C$?, es decir, $\C\subset\C_m\subset\C_i$ ($i\in I$). En caso afirmativo, esta clase $\C_m$ se llama la {\it mínima clase engendrada o generada por la clase original $\C$}. Intuitivamente, el problema consiste en ``añadir'' el mínimo número de subconjuntos a la clase $\C$ hasta conseguir la estructura deseada (en nuestro caso sólo consideraremos el álgebra, $\sigma$-álgebra y clase monótona). La estructura de clase monótona es importante por actuar como puente entre el álgebra y la $\sigma$-álgebra. Este problema tiene dos tipos de resultados: los que sólo garantizan la existencia de $\C_m$ y los que, además muestran un método de construcción. Salvo casos particulares no existen métodos constructivos para ``construir'' la mínima clase engendrada con estructura dada.
+
+En lo que sigue, sea $\Omega$ un conjunto base y $\C\subset\Parts(\Omega)$ una clase no vacía.
+\begin{itemize}
+    \item[$\bullet$] Se define el álgebra engendrada (generada) por la clase $\C$, y la representaremos $\Alg(\C)$, a la mínima clase, con estructura de álgebra, que contiene a $\C$.
+    \item[$\bullet$] Se define la $\sigma$-álgebra engendrada (generada) por la clase $\C$, y la representaremos $\Salg(\C)$, a la mínima clase, con estructura de $\sigma$-álgebra, que contiene a $\C$.
+    \item[$\bullet$] Se define la clase monótona engendrada (generada) por la clase $\C$, y la representaremos $\Mon(\C)$, a la mínima clase, con estructura de clase monótona, que contiene a $\C$.
+\end{itemize}
+
+\begin{lemma}[\textbf{Intersección de estructuras}]
+    La intersección arbitraria de clases con la misma estructura es otra clase con la misma estructura. Es decir, si $\set{\C_i}_{i\in I}$ es una familia de clases (de $\Omega$) con $\C_i$ ($\forall i\in I$) anillo, $\sigma$-anillo, álgebra, $\sigma$-álgebra o clase monótona, entonces $\C=\bigcap_{i\in I}C_i$ es anillo, $\sigma$-anillo, álgebra, $\sigma$-álgebra o clase monótona.
+\end{lemma}
+
+\begin{proof}
+    La propia definición de las estructuras garantizan la invariancia de las mismas bajo la operación de intersección. En efecto, supongamos que $\set{\A_0^{(i)}}_{i\in I}$ es una familia de álgebras definidas sobre el mismo espacio $\Omega$. Definamos la clase $\A_0=\bigcap_{i\in I}\A_0^{(i)}$ y veamos que es álgebra.
+
+    \begin{enumerate}
+        \item Si $A_j\in\A_0$ ($j=1,2,\dots,n$), entonces $A_j\in\A_0^{(i)}$ ($j=1,2,\dots,n; \forall i\in I$). Como cada $\A_0^{(i)}$ es álgebra, $\bigcup_{j=1}^n A_j\in \A_0^{(i)}$ ($\forall i\in I$), luego $\bigcup_{j=1}^n A_j\in\A_0$.
+        \item Si $A\in\A_0$ entoncces $A\in\A_0^{(i)}$ ($\forall i\in I$), luego $\comp{A}\in\A_0^{(i)}$ ($\forall i\in I$). Por tanto, $\comp{A}\in\A_0$.
+    \end{enumerate}
+    El mismo método de demostración se sigue para el resto de las estructuras.
+\end{proof}
+
+El problema de la existencia de las clases engendradas se aborda de este modo por medio de la siguiente
+
+\begin{proposition}[\textbf{Existencia de mínimas estructuras}]
+    Dada una clase arbitraria $\C$ de subconjuntos de $\Omega$, siempre existen $\Alg(\C)$, $\Salg(\C)$ y $\Mon(\C)$.
+
+\end{proposition}

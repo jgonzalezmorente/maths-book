@@ -84,15 +84,9 @@ $$\frac{1}{\sqrt{n}}\norm{x-\bar{x}\1}=\sqrt{\frac{\sum_{i=1}^n(x_i-\bar{x})^2}{
 
 La medida de dependencia lineal entre dos variables, $\x$, $\y$ es la \textbf{covarianza}. La covarianza es el producto escalar promedio de los dos vectores medidos en desviaciones a la media, o tomando sus diferencias respecto a la proyección sobre el vector constante. Si promediamos el producto escalar de estos vectores
 $$\frac{1}{n}(\x-\bar{x}\1)'(\y-\bar{y})=\frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{n}=\Cov(\x,\y)$$
-se obtiene la covarianza. Para variables con media cero, el producto escalar de los dos vectores, dividido por $n$, es directamente la covarianza.
-
-Para variables estandarizadas (de media cero y desviación típica uno) la covarianza es el \textbf{coeficiente de correlación}:
-$$\rho=\frac{\Cov(\x,\y)}{\sigma_\x\sigma_\y}=\Cov(\x,\y)$$
-
-Para vectores media cero, el coeficiente de correlación es el coseno del ángulo entre los vectores que las representan:
+se obtiene la covarianza. Obsérvese que si las variables tienen media cero, el producto escalar de los dos vectores, dividido por $n$, es directamente la covarianza. En estos casos, el \textbf{coeficiente de correlación} es el coseno del ángulo entre los vectores que las representan:
 $$\rho=\frac{\Cov(\x,\y)}{\sigma_\x\sigma_y}=\frac{\dfrac{\x'\y}{n}}{\dfrac{\norm{x}}{\sqrt{n}}\dfrac{\norm{y}}{\sqrt{n}}}=\frac{\x'\y}{\norm{x}\norm{y}}=\cos\theta$$
 que es la interpretación geométrica del coeficiente de correlación. La implicación estadística de la ortogonalidad es la incorrelación. Si dos variables tienen media cero y son ortogonales, es decir, los vectores que las caracterizan forman un ángulo de 90 grados, $\rho =0$, las variables están incorreladas.
-
 
 
 
