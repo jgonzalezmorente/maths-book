@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.23)  30 NOV 2024 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.23)  1 DEC 2024 20:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -454,7 +454,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 ...medida a la probabilidad}{22}{chapter.6.1}
+l.23 ...medida a la probabilidad}{24}{chapter.6.1}
                                                   % [1
 
 ])
@@ -519,22 +519,30 @@ LaTeX Info: Redefining \% on input line 117.
 
 ] (./parts/vector_calculus/ch_linear_spaces.tex
 Cap\'{\i }tulo 1.
-) (./parts/vector_calculus/ch_linear_trans_matrix.tex
+
 
 [11
 
 ]
+
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+[12]) (./parts/vector_calculus/ch_linear_trans_matrix.tex
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+[13]
 Cap\'{\i }tulo 2.
 ))
 
-[12
+[14
 
 ]
 \openout2 = `parts/prob_stat/part.aux'.
 
  (./parts/prob_stat/part.tex
 
-[13
+[15
 
 
 
@@ -543,18 +551,18 @@ Cap\'{\i }tulo 2.
 Cap\'{\i }tulo 1.
 
 
-[14
+[16
 
 ]))
 
 LaTeX Info: Redefining \. on input line 119.
 LaTeX Info: Redefining \% on input line 119.
-[15]
+[17]
 \openout2 = `parts/multivar_data_analysis/part.aux'.
 
  (./parts/multivar_data_analysis/part.tex
 
-[16
+[18
 
 
 
@@ -563,26 +571,26 @@ LaTeX Info: Redefining \% on input line 119.
 Cap\'{\i }tulo 1.
 
 
-[17
+[19
 
 ]
 
 LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
-[18]
+[20]
 
 LaTeX Info: Redefining \. on input line 83.
 LaTeX Info: Redefining \% on input line 83.
-[19]))
+[21]))
 
 LaTeX Info: Redefining \. on input line 120.
 LaTeX Info: Redefining \% on input line 120.
-[20]
+[22]
 \openout2 = `parts/design_prob_models/part.aux'.
 
  (./parts/design_prob_models/part.tex
 
-[21
+[23
 
 
 
@@ -591,15 +599,15 @@ LaTeX Info: Redefining \% on input line 120.
 Cap\'{\i }tulo 1.
 
 
-[22
+[24
 
 ]))
 
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
-[23] (./main.bbl)
+[25] (./main.bbl)
 
-[24
+[26
 
 
 
@@ -612,21 +620,21 @@ LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 51228DDA1DC7DB1B021BAA149B6B105A;4037.
+(rerunfilecheck)             Checksum: 7DD4F9E8C670EC60DB639629FFCAEE65;4461.
  ) 
 Here is how much of TeX's memory you used:
- 12237 strings out of 474813
- 193813 string characters out of 5755170
- 597915 words of memory out of 5000000
- 34832 multiletter control sequences out of 15000+600000
- 642067 words of font info for 93 fonts, out of 8000000 for 9000
+ 12250 strings out of 474813
+ 193988 string characters out of 5755170
+ 598956 words of memory out of 5000000
+ 34837 multiletter control sequences out of 15000+600000
+ 644862 words of font info for 94 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  75i,12n,79p,1421b,817s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (25 pages, 205452 bytes).
+</usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on main.pdf (27 pages, 237833 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 360 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

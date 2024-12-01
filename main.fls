@@ -257,11 +257,12 @@ INPUT parts/vector_calculus/part.tex
 INPUT ./parts/vector_calculus/ch_linear_spaces.tex
 INPUT ./parts/vector_calculus/ch_linear_spaces.tex
 INPUT parts/vector_calculus/ch_linear_spaces.tex
+INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
+INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
+INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
 INPUT ./parts/vector_calculus/ch_linear_trans_matrix.tex
 INPUT ./parts/vector_calculus/ch_linear_trans_matrix.tex
 INPUT parts/vector_calculus/ch_linear_trans_matrix.tex
-INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
-INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
 INPUT ./parts/prob_stat/part.tex
 INPUT ./parts/prob_stat/part.tex
 OUTPUT parts/prob_stat/part.aux
@@ -320,6 +321,7 @@ INPUT ./main.out
 INPUT ./main.out
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmbx8.pfb
+INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmex10.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi12.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb

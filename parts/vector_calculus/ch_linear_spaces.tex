@@ -5,3 +5,68 @@
 A lo largo de la Matemática se encuentran muchos ejemplos de objetos matemáticos que pueden sumarse unos con otros y multiplicarse por números reales. Ante todo, los números reales son objetos de tal naturaleza. Otros ejemplos son las funciones vectoriales, los números complejos, las series y los vectores en el espacio $n$-dimensional. En este capítulo tratamos un concepto matemático general, llamado {\it espacio lineal}, que incluye todos esos ejemplos y muchos otros como casos particulares.
 
 Brevemente, un espacio lineal es un conjunto de elementos de naturaleza cualquiera sobre el que pueden realizarse ciertas operaciones llamadas {\it adición} y {\it multiplicación por números}. Al definir un espacio lineal no especifacmos la naturaleza de los elementos ni decimos cómo se realizan las operaciones entre ellos. En cambio, exigimos que las operaciones tengan ciertas propiedades que tomamos como axiomas de un espacio lineal. Vamos ahora a hacer con detalle una descripción de esos axiomas.
+
+\section{Definición de espacio lineal}
+
+Sea $V$ un conjunto no vacío de objetos, llamados {\it elementos}. El conjunto $V$ se llama espacio lineal si satisface los diez axiomas siguientes que se enuncian en tres grupos.
+
+\vspace{.3cm}
+\textit{Axiomas de clausura}
+
+\vspace{.3cm}
+\indent\textsc{Axioma 1. Clausura respecto a la adición.} {\it A todo par de elementos $x$ e $y$ de $V$ corresponde un elemento único de $V$ llamado suma de $x$ e $y$, designado por $x+y$}.
+
+\vspace{.3cm}
+\indent\textsc{Axioma 2. Clausura respecto a la multiplicación por números reales.} {\it A todo $x$de $V$ y todo número real $a$ corresponde un elemento de $V$ llamado producto de $a$ por $x$, designado por $ax$}.
+
+\vspace{.3cm}
+\textit{Axiomas para la adición}
+
+\vspace{.3cm}
+\indent\textsc{Axioma 3. Ley conmutativa.} {\it Para todo $x$ y todo $y$ de $V$, tenemos}
+$$x+y=y+x$$
+
+\vspace{.3cm}
+\indent\textsc{Axioma 4. Ley asociativa.} {\it Cualesquiera que sean $x,y,z$ de $V$, tenemos}
+$$(x+y)+z=x+(y+z)$$
+
+\vspace{.3cm}
+\indent\textsc{Axioma 5. Existencia de elemento cero.} {\it Existe un elemento en $V$, designado por el símbolo $0$, tal que}
+$$x+0=x,\quad\text{\it para todo }x\textit{ de }V$$
+
+\vspace{.3cm}
+\indent\textsc{Axioma 6. Existencia de opuestos.} {\it Para todo $x$ de $V$, el elemento $(-1)x$ tiene la propiedad}
+$$x+(-1)x=0$$
+
+\vspace{.3cm}
+\textit{Axiomas para la multiplicación por números}
+
+\vspace{.3cm}
+\indent\textsc{Axioma 7. Ley asociativa}. {\it Para todo $x$ de $V$, y todo par de números $a$ y $b$, tenemos}
+$$a(bx)=(ab)x$$
+
+\vspace{.3cm}
+\indent\textsc{Axioma 8. Ley distributiva para la adición en $V$.} {\it Para todo $x$ y todo $y$ de $V$ y todo número real $a$, tenemos}
+$$a(x+y)=ax+ay$$
+
+\vspace{.3cm}
+\indent\textsc{Axioma 9. Ley distributiva para la adición de números.} {\it Para todo $x$ de $V$ y todo par de números reales $a$ y $b$, tenemos}
+$$(a+b)x=ax+bx$$
+
+\vspace{.3cm}
+\indent\textsc{Axioma 10. Existencia de elemento identidad.} {\it Para todo $x$ de $V$, tenemos}
+$$1x=x$$
+
+Los espacios lineales así definidos, se llaman, a veces, espacios lineales {\it reales} para resaltar el hecho de que se multiplican los elementos de $V$ por números reales. Si en los axiomas $2$, $7$, $8$ y $9$ se reemplaza {\it número real} por {\it número complejo}, la estructura que resulta se llama {\it espacio lineal complejo}. Algunas veces un espacio lineal se llama también {\it espacio vectorial lineal} o simplemente {\it espacio vectorial}; los números utilizados como multiplicadores se llaman {\it escalares}. Un espacio lineal real tiene números reales como escalares; un espacio lineal complejo tiene como escalares números complejos. Si bien consideraremos principalmente ejemplos de espacios lineales reales, todos los teoremas son válidos para espacios lineales complejos. Cuando digamos espacio lineal sin más, se sobrentenderá que el espacio puede ser real o complejo.
+
+\section{Ejemplos de espacios lineales}
+
+Si precisamos el conjunto $V$ y decimos cómo se suman sus elementos y cómo se multiplican por números, obtenemos un ejemplo concreto de espacio lineal. El lector fácilmente puede comprobar que cada uno de los ejemplos siguientes satisface todos los axiomas para un espacio lineal real.
+
+\begin{example}
+    Sea $V=\RR$, el conjunto de todos los números reales, y sean $x+y$ y $ax$ la adición y la multiplicación ordinarias de números reales.
+\end{example}
+
+\begin{example}
+    Sea $V=\CC$ el conjunto de todos los números complejos, definimos $x+y$ como la adición ordinaria de números complejos y $ax$ como la multiplicación del número complejo $x$ por el número real $a$. Aunque los elementos de $V$ sean números complejos, éste es un espacio lineal real porque los escalares son reales.
+\end{example}
